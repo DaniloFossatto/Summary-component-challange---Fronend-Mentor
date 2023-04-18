@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Hanken Grotesk', sans-serif;
+}
+main{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#mainDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 25px;
+}
+.rst{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 400px;
+    background-color: #5f3ffc;
+    border-radius: 25px;
+}
+.rst h3:first-of-type{
+    font-size: 19px;
+    color: #cdc4ff;
+}
+.number{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #4c22ca, #442fe2,#5f3ffc
+
+    );
+}
+.number h1{
+    font-size: 50px;
+    color: #fffeff;
+}
+.number p{
+    color: #7062f4;
+}
+.great{
+    color: #fdfcff;
+    font-size: 25px;
+}
+.rst p:first-of-type{
+  color: #c4c2ff;
+  font-size: 15px;
+  text-align: center;
+  width: 200px;
+}
+.smr{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 400px;
+    width: 300px;
+    margin-left: 30px;
+    border-radius: 25px;
+   font-size: 15px;
+}
+.imgs{
+    display: flex;
+    
+}
+.imgs img{
+    padding-right: 5px;
+}
+.results{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 240px;
+    border-radius: 5px;
+    height: 40px;
+    
+}
+#reaction{
+    
+    background-color: #fff6f5   ;
+}
+#reaction div p:first-of-type{
+    color:#db6e6c;
+    
+}
+#memory{
+    background-color: #fffbf2;
+}
+#memory div p:first-of-type{
+    color: #ecb444;
+}
+#verbal{
+    background-color: #f2fafa;
+}
+#verbal div p:first-of-type{
+    color: #79bfac;
+}
+#visual{
+    background-color: #f3f3fd;
+}
+#visual div p:first-of-type{
+    color: #3b3e94 ;
+}
+.pBold{
+    font-weight: bold;
+}
+button{
+    height: 40px;
+    width: 230px;
+    border-radius: 25px;
+    color: #fffeff;
+    border: 0;
+    background-color: #303b59;
+}
+button:hover{
+   
+    cursor: pointer;
+    background-color: #4535f0;
+}
+
+@media screen and (max-width: 652px)  {
+    #mainDiv{
+        flex-direction: column;
+    }
+    .rst{
+        width: 100vw;
+    }
+    .smr{
+        align-items: center;
+        width: 100vw;
+    }
+    .results{
+        width: 80vw;
+    }
+    button{
+        width:80vw;
+    }
+    .attribution{
+        display: none;
+    }
+}
